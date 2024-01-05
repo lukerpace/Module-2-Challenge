@@ -45,10 +45,24 @@ p {
 }
 
 .hero {
-    height: 250px;
+    height: 615px;
     width: 100%
     margin-bottom: 25px;
-    background-image: url('assets\images\IMG_2031.PNG');
+    background-image: url('../images/IMG_2031.PNG');
     background-size: cover;
     background-position: center;
 }
+
+.float-right {
+    float: right;
+    margin: left; px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    padding-right: 80px;
+    float: right;
+    color: #4A8894;
+    align: flex-end;
+}
+
