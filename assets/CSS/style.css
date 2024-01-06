@@ -9,7 +9,7 @@ body {
 }
 
 .header{
-    padding: 20px;
+    padding: 30px;
     background-color: #0b1419;
     color: #9c7c6c;
 }
@@ -37,7 +37,6 @@ body {
 
 a{
     color: #9c7c6c;
-    text-decoration:;
 }
 
 p {
@@ -52,17 +51,44 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-right {
-    float: right;
-    margin: left; px;
-}
-
+    /*Find way to move <h2> to the bottom of the hero element?*/
 .hero h2 {
     font-size: 48px;
-    padding-right: 80px;
+    padding: 20px 20px;
     float: right;
     color: #4A8894;
-    align: flex-end;
+    background-color: #0b1419;
+    border: 3px solid #9c7c6c;
+    box-shadow: -3px 6px #413f3f
+    }
+
+.content p {
+text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding: 20px;
+    background-color: #4A8894;
+    color: #0b1419;
+}
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer ul {
+    text-align: center;
+    list-style-type: none;
+}
+ 
