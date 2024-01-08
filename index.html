@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\CSS\style.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
     <title>portfolio-LP</title>
 </head>
 
@@ -12,37 +12,90 @@
     <header class="header"> <!--Add link to list once related sections are made and given class/id-->
         <h1>Luke Pace</h1>
         <div>
+            <!-- <img src="/assets/images/IMG_2031.PNG"> -->
+        </div>    
+        <div>
             <ul>
                 <li>
-                    <a href="#About-Me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#My-Work">My Work</a>
+                    <a href="#my-work">My Work</a>
                 </li>
                 <li>
                     <a href="#footer">Contact Me</a>
                 </li>
             </ul>
-        </div>
+         </div>
     </header>
     <div class="hero">
         <h2>Portfolio</h2>
     </div> <!--Add img to the hero class in css style sheet-->
     <main class="content">
-        <div id="About-Me" class="About-Me">
+        <div id="about-me" class="about-me">
             <h2>About Me</h2>
-            <p>Hello, my name is Luke Pace. I was born in austin, TX and have lived here since. After mostly working in the service industry I decided to 
-                spend a summer working as a deckhand in alaska. In alaska i was introduced to the idea of learning to code and gained the interest to do so. 
-                My goal is to eventually work remote as a means to support my desires to travel/move to the PNW.  
-                 </p>
-        </div>
-        <div id="My-Work" class="My-Work">
+            <p>Hello, my name is Luke Pace. I was born in austin, TX and have lived here since. After mostly working in
+                the service industry I decided to
+                spend a summer working as a deckhand in alaska. In alaska i was introduced to the idea of learning to
+                code and gained the interest to do so.
+                My goal is to eventually work remote as a means to support my desires to travel/move to the PNW.
+            </p>
+        </div> 
+        <div id="my-work" class="my-work"> <!--parent box that holds all children.-->
             <h2>My Work</h2>
-            <section class="card">
-                <header>Study Guide</header>
-                <p>HTML,CSS,JavaScript</p>
-                
-            </section> 
+            <div>
+                <a href="http://lukerpace.github.io/prework-study-guide/">
+                    <section class="parentContainer">
+                        <img id="img1" src="./assets/images/Opera Snapshot_2024-01-03_174918_127.0.0.1.png" alt="">
+                        <div class="smallContainer">
+                            <h5>Study Guide</h5>
+                            <p>HTML,CSS,JavaScript</p>
+                        </div>
+                    </section>
+                </a>
+                <div id="middleContainer">
+                    <a href="http://lukerpace.github.io/prework-study-guide/">
+                        <section class="parentContainer">
+                            <img class="smallImg" src="./assets/images/Opera Snapshot_2023-12-21_221216_127.0.0.1.png">
+                            <div class="smallContainer">
+                                <h5>horiseon</h5>
+                                <p>HTML,CSS</p>
+                            </div>
+                        </section>
+                    </a>
+                    <a href="http://lukerpace.github.io/prework-study-guide/">
+                        <section class="parentContainer">
+                            <img class="smallImg" src="./assets/images/Opera Snapshot_2023-12-21_221216_127.0.0.1.png" alt="">
+                            <div class="smallContainer">
+                                <h5>Calculator</h5>
+                                <p>React</p>
+                            </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div id="bottomContainer">
+                    <a href="http://lukerpace.github.io/prework-study-guide/">
+                        <section class="parentContainer">
+                            <img class="smallImg" src="./assets/images/Opera Snapshot_2023-12-21_221216_127.0.0.1.png" alt="">
+                            <div class="smallContainer">
+                                <h5>Pastel</h5>
+                                <p>HandleBars</p>
+                            </div>
+                        </section>
+                    </a>
+                    <a href="http://lukerpace.github.io/prework-study-guide/">
+                        <section class="parentContainer">
+                            <img class="smallImg" src="./assets/images/Opera Snapshot_2023-12-21_221216_127.0.0.1.png" alt="">
+                            <div class="smallContainer">
+                                <h5>Run Buddy</h5>
+                                <p>JASS</p>
+                            </div>
+                        </section>
+                    </a>
+                </div>
+
+            </div>
         </div>
 
     </main>
