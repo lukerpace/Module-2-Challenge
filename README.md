@@ -19,7 +19,7 @@ To use this site you can follow the links in the header to the desired section. 
 
 ## Link to website
 
-https://lukerpace.github.io/Module-2-Challenge/
+https://lukerpace.github.io/Portfolio-LP/
 
 ## License
 
